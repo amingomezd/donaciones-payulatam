@@ -58,7 +58,7 @@ if (strtoupper($firma) == strtoupper($firmaMd5)) {
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="col p-3 text-center">
-                <img src="<?php echo $logo ?>>" class="img-fluid w-75"
+                <img src="<?php echo $logo ?>" class="img-fluid w-75"
                      alt="Logo DAR">
             </div>
         </div>
