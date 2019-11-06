@@ -48,7 +48,7 @@ include 'config.php';
                     })
                 }
                 //Si el script se inserta en un iframe en otro dominio, se envía el mensaje scrollTop para que suba la pantalla
-                window.parent.postMessage("scrollTop", "<?php echo $urlDonaciones ?>>");
+                window.parent.postMessage("scrollTop", "<?php echo $urlDonaciones ?>");
             });
         });
     </script>
